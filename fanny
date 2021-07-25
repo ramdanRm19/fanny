@@ -45,6 +45,7 @@ echo -e $green" 02) Daftar Surat Alquran buat hapalan"
 echo -e $green" 03) Zodiak"
 echo -e $green" 04) buat hitung gaji fanny sayang"
 echo -e $green" 05) buat spam aku"
+echo -e $green" 06) Chat robot hmei7 2"
 echo -e $white""
 read -p "[root@Hmei7:~#]>" hmei7;
 
@@ -115,3 +116,14 @@ echo -e $green"Sukses!"
 echo -e $green" cara pakai : python2 spamaku.py"
 fi
 
+if [ $hmei7 = 06 ] || [ $hmei7 = 06 ]
+then
+clear
+echo -e $green" install chat bot hmei7 2"
+sleep 1
+pkg install python
+pip install requests
+curl -O https://raw.githubusercontent.com/ramdanRm19/trash/main/robothmei7.py
+echo -e $green"Sukses!"
+echo -e $green" cara pakai : python robothmei7.py"
+fi
