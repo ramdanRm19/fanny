@@ -58,9 +58,9 @@ pkg install python
 pip2 install requests
 pip2 install urllib
 pip2 install sys
-curl -O https://raw.githubusercontent.com/ramdanRm19/trash/main/robothmei7.py
+curl -O https://raw.githubusercontent.com/ramdanRm19/trash/main/robot.py
 echo -e $green" Sukses!"
-echo -e $green" cara pakai : python robothmei7.py"
+echo -e $green" cara pakai : python robot.py"
 fi
 
 if [ $hmei7 = 02 ] || [ $hmei7 = 02 ]
